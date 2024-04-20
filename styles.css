@@ -1,0 +1,217 @@
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  } 
+
+.container {
+  display: flex;
+}
+
+.lado_esquerdo {
+    background-color: #F3F4F7;
+    width: 50%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.lado_direito {
+    width: 50%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+
+.logo_image {
+  bottom:250px;
+  left: 350px;
+  width: 167px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.txt1 {
+  width: 235.59px;
+  height: 48px;
+  bottom: 150px;
+  left: 170px;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: 'Poppins';
+  color: #262626;
+  font-size: 13px;
+  position: relative;
+}
+
+.door {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  bottom: 147px;
+  left: 150px;
+}
+
+.door-image {
+  width: 30px;
+  height: 30px;
+}
+
+.txt2 {
+  width: 335.73px;
+  height: 44px;
+  font-family: 'Roboto';
+  justify-content: center;
+  font-size: 12px;
+  align-items: center;
+  display: flex;
+  color: #262626;
+  position: relative;
+  bottom: 110px;
+  right: 80px;
+  white-space: nowrap;
+}
+
+.formulario {
+    width: 350px;
+    height: 500px;
+    right: 420px;
+    top: 150px;
+    position: relative;
+}
+
+.label_1 {
+    position: relative;
+    font-family: 'Poppins';
+
+}
+
+.email_ {
+    position: relative;
+}
+
+#email1 {
+    width: 300px;
+    height: 30px;
+    outline: 0px;
+    font-family: 'Roboto';
+    padding: 2px 0px 0px 30px;
+    background-color: transparent;
+}
+
+.email_ i {
+    font-size: 20px;
+    position: absolute;
+    left: 2%;
+    padding: 8px 0px 0px 
+}
+
+.label_2 {
+    position: relative;
+    font-family: 'Poppins';
+}
+
+.senha {
+    position: relative;
+    height: 30px;
+}
+
+#senha_1 {
+    width: 300px;
+    height: 30px;
+    outline: 0;
+    font-family: 'Roboto';
+    padding: 2px 0px 0px 30px;
+    background-color: transparent;
+}
+
+.senha i {
+    font-size: 20px;
+    position: absolute;
+    padding: 8px 0px 0px;
+    right: 2%;
+    cursor: pointer;
+}
+
+.cadeado {
+  position: relative;
+  width: 20;
+  height: 31;
+  top: 115px;
+  left: 7px;
+}
+
+.checkbox_1 {
+  width: 150px;
+  height: 60px;
+  right: 750px;
+  top: 90px;
+  position: relative;
+  display: inline-block;
+}
+
+#checkbox-1 {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+#labelbox {
+  font-family: 'Roboto';
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+.txt3 {
+  font-family: 'Poppins';
+  color: #0CC4B6;
+  font-size: 12px;
+  white-space: nowrap;
+  right: 660px;
+  top: 80px;
+  position: relative;
+  cursor: pointer;
+}
+
+.entrar {
+  width: 350px ;
+  height: 50px;
+  right: 1000px;
+  top: 150px;
+  position: relative;
+}
+
+#entrar_1 {
+  width: 350px;
+  height: 50px;
+  background-color: #0CC4B6;
+  cursor: pointer;
+  font-family: 'Poppins';
+  color: white;
+  font-size: 20px;
+}
+
+.txt4 {
+  font-family: 'Poppins';
+  font-size: 15px;
+  color: #0CC4B6;
+  white-space: nowrap;
+  position: relative;
+  right: 1300px;
+  top: 200px;
+}
