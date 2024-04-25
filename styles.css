@@ -162,7 +162,8 @@
   right: 750px;
   top: 90px;
   position: relative;
-  display: inline-block;
+  display: flex;
+  color: #0CC4B6;
 }
 
 #checkbox-1 {
@@ -182,8 +183,8 @@
   color: #0CC4B6;
   font-size: 12px;
   white-space: nowrap;
-  right: 660px;
-  top: 80px;
+  right: 680px;
+  top: 72px;
   position: relative;
   cursor: pointer;
 }
