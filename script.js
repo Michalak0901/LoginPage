@@ -1,6 +1,6 @@
 function mostrar_senha(){
-    var inputPass = document.getElementById('senha_1')
-    var btnShowPass = document.getElementById('botão')
+    var inputPass = document.getElementById('senhaLabel')
+    var btnShowPass = document.getElementById('eyeIcon')
 
     if(inputPass.type === 'password'){
         inputPass.setAttribute('type', 'text')

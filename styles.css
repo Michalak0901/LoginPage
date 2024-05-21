@@ -1,218 +1,137 @@
-.poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-
-.roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  } 
+html, body {
+  overflow: hidden;
+}
 
 .container {
   display: flex;
 }
 
-.lado_esquerdo {
-    background-color: #F3F4F7;
-    width: 50%;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-.lado_direito {
-    width: 50%;
-    height: 100vh;
-    align-items: center;
-    display: flex;
-}
-
-.logo_image {
-  bottom:250px;
-  left: 350px;
-  width: 167px;
-  height: 50px;
+.ladoEsquerdo {
+  width: 50%;
+  height: 100vh;
+  background-color: rgb(243, 243, 243);
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+#sideImage {
+  margin-right: 13%;
+}
+
+.ladoDireito {
+  margin-top: 12.5rem;
+  margin-left: 12.5rem;
+}
+
+#seta {
+  font-size: 1.563rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #636262;
+}
+
+#cadTxt {
+  font-size: 0.938rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #636262;
+}
+
+.formDiv {
+  font-size: 1.063rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #636262;
   position: relative;
 }
 
-.txt1 {
-  width: 235.59px;
-  height: 48px;
-  bottom: 150px;
-  left: 170px;
-  white-space: nowrap;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  font-family: 'Poppins';
-  color: #262626;
-  font-size: 13px;
-  position: relative;
+#mailIcon {
+  position: absolute;
+  right: 90%;
+  bottom: 78%;
+  font-size: 1.563rem;
+  color: rgb(207, 206, 206);
 }
 
-.door {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  position: relative;
-  width: 30px;
-  height: 30px;
-  bottom: 147px;
-  left: 150px;
+#emailLabel {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  width: 18.75rem;
+  height: 2.188rem;
+  padding-left: 2.188rem;
+  border-color:rgb(219, 216, 216);
 }
 
-.door-image {
-  width: 30px;
-  height: 30px;
+::placeholder {
+  font-size: 0.938rem;
+  padding-left: 0.625rem;
+  color: rgb(207, 206, 206);
 }
 
-.txt2 {
-  width: 335.73px;
-  height: 44px;
-  font-family: 'Roboto';
-  justify-content: center;
-  font-size: 12px;
-  align-items: center;
-  display: flex;
-  color: #262626;
-  position: relative;
-  bottom: 110px;
-  right: 80px;
-  white-space: nowrap;
+#senhaLabel{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  width: 18.75rem;
+  height: 2.188rem;
+  padding-left: 2.188rem;
+  border-color:rgb(219, 216, 216);
 }
 
-.formulario {
-    width: 350px;
-    height: 500px;
-    right: 420px;
-    top: 150px;
-    position: relative;
+#lockIcon {
+  position: absolute;
+  right: 90%;
+  bottom: 48%;
+  font-size: 1.563rem;
+  color: rgb(207, 206, 206);
 }
 
-.label_1 {
-    position: relative;
-    font-family: 'Poppins';
-
-}
-
-.email_ {
-    position: relative;
-}
-
-#email1 {
-    width: 300px;
-    height: 30px;
-    outline: 0px;
-    font-family: 'Roboto';
-    padding: 2px 0px 0px 30px;
-    background-color: transparent;
-}
-
-.email_ i {
-    font-size: 20px;
-    position: absolute;
-    left: 2%;
-    padding: 8px 0px 0px 
-}
-
-.label_2 {
-    position: relative;
-    font-family: 'Poppins';
-}
-
-.senha {
-    position: relative;
-    height: 30px;
-}
-
-#senha_1 {
-    width: 300px;
-    height: 30px;
-    outline: 0;
-    font-family: 'Roboto';
-    padding: 2px 0px 0px 30px;
-    background-color: transparent;
-}
-
-.senha i {
-    font-size: 20px;
-    position: absolute;
-    padding: 8px 0px 0px;
-    right: 2%;
-    cursor: pointer;
-}
-
-.cadeado {
-  position: relative;
-  width: 20;
-  height: 31;
-  top: 115px;
-  left: 7px;
-}
-
-.checkbox_1 {
-  width: 150px;
-  height: 60px;
-  right: 750px;
-  top: 90px;
-  position: relative;
-  display: flex;
-  color: #0CC4B6;
-}
-
-#checkbox-1 {
-  width: 20px;
-  height: 20px;
+#eyeIcon {
+  position: absolute;
+  right: 4%;
+  bottom: 48%;
+  font-size: 1.563rem;
   cursor: pointer;
 }
 
-#labelbox {
-  font-family: 'Roboto';
-  font-size: 17px;
-  white-space: nowrap;
+#checkInput {
+  width: 1.25rem;
+  height: 1.25rem;
+  float: left;
+  accent-color: #13968b;
 }
 
-.txt3 {
-  font-family: 'Poppins';
-  color: #0CC4B6;
-  font-size: 12px;
-  white-space: nowrap;
-  right: 680px;
-  top: 72px;
-  position: relative;
+.checkDiv {
+  display: inline;
+  font-size: 14px;
   cursor: pointer;
 }
 
-.entrar {
-  width: 350px ;
-  height: 50px;
-  right: 1000px;
-  top: 150px;
-  position: relative;
-}
-
-#entrar_1 {
-  width: 350px;
-  height: 50px;
-  background-color: #0CC4B6;
-  cursor: pointer;
-  font-family: 'Poppins';
+#entBot {
+  width: 21.313rem;
+  height: 2.563rem;
+  background-color: #0CC4B6;;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
   color: white;
-  font-size: 20px;
+  font-size: 1.25rem;
+  cursor: pointer;
 }
 
-.txt4 {
-  font-family: 'Poppins';
+#regTxt {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 15px;
+  padding-left: 30px;
   color: #0CC4B6;
-  white-space: nowrap;
-  position: relative;
-  right: 1300px;
-  top: 200px;
 }

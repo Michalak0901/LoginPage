@@ -1,0 +1,17 @@
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: normal;
+
+ <i class="bi bi-eye"></i>
+
+ <i class="bi bi-envelope"></i>
+
+ <i class="bi bi-lock"></i>
+
+<i class="bi bi-arrow-bar-right"></i>
+
+#0CC4B6;
